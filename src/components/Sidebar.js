@@ -72,7 +72,9 @@ export default function Sidebar(props) {
    
         <Toolbar>
           <Typography variant="h6" noWrap component="div">
-          <ListItemIcon onClick={offMenu}>
+          <ListItemIcon onClick={offMenu}
+          sx={{display:{sm:"none"}}}
+          >
           <MenuIcon  />
           </ListItemIcon >
     

@@ -9,20 +9,24 @@ function App() {
   return (
 
 
-    <Router>
+
       <div className="App">
+          <Router>
       <Sidebar content={
+          
          <Routes>       
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
         
         </Routes>
+      
 
       } />
+        </Router>
 
       
       </div>
-    </Router>
+
   );
 }
 
